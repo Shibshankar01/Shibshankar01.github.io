@@ -3,3 +3,80 @@
     padding: 0px;
     background-color: #ecc4c3;
 }
+
+body{
+    display: flex;
+    justify-content: space-between;
+}
+#container{
+    width: 70%;
+    font-family: 'Objectivity-Bold';
+    color: #8D4B55;
+    font-size: 30px;
+}
+#introduction>button{
+    height: 50px;
+    width: 120px;
+    font-family: 'Objectivity-Bold';
+    font-size: 16px;
+    color: white;
+    border: none;
+    background-color: #8D4B55;
+    border-radius: 12px;
+}
+#introduction>button:hover{
+    background-color: white;
+    color: #8D4B55;
+    cursor: pointer;
+}
+#introduction{
+    margin-top: 200px;
+    margin-bottom: 310px;
+}
+#introduction>div{
+    margin-bottom: 30px;
+}
+#aboutme{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#aboutme>img{
+    border-radius: 15px;
+    width: 41%;    
+    height: 600px;
+}
+#aboutme>#info{
+    width: 55%;
+}
+#info>h2{
+    font-size: 30px;
+}
+#info>div{
+    font-size: 20px;
+    color: grey;
+    font-family: 'PT Root UI Bold';
+    line-height: 150%;
+}
+#info>div>p:first-child{
+    margin-bottom: 23px;
+}
+#info>div>p{
+    margin-bottom: 10px;
+}
+#info>div>button{
+    height: 50px;
+    width: 130px;
+    font-family: 'Objectivity-Bold';
+    font-size: 16px;
+    color: white;
+    border: none;
+    background-color: #8D4B55;
+    border-radius: 12px;
+}
+#info>div>button:hover{
+    background-color: white;
+    color: #8D4B55;
+    cursor: pointer;
+}
+/* important color: 8D4B55 */

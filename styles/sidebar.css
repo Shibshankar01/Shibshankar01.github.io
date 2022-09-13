@@ -4,6 +4,8 @@
     height: 730px;
     width: 25%;
     position: sticky;
+    top: 0px;
+    left: 0px;
     background-color: #979999 !important;
     color: white;
     text-align: center;
