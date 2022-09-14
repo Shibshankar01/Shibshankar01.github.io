@@ -23,11 +23,13 @@ body{
     border: none;
     background-color: #8D4B55;
     border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #introduction>button:hover{
     background-color: white;
     color: #8D4B55;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #introduction{
     margin-top: 200px;
@@ -43,8 +45,9 @@ body{
 }
 #aboutme>img{
     border-radius: 15px;
-    width: 41%;    
-    height: 600px;
+    width: 37%;    
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #aboutme>#info{
     width: 55%;
@@ -73,10 +76,69 @@ body{
     border: none;
     background-color: #8D4B55;
     border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #info>div>button:hover{
     background-color: white;
     color: #8D4B55;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#myskills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 95%;
+    margin: auto;
+    margin-top: 80px;
+}
+#myskills>div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    background-color: #979999;
+    width: 70%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#myskills>div:first-child{
+    background-color: white;
+    color: #8D4B55 !important;
+}
+#myskills>div:hover{
+    color: white;
+}
+#education{
+    margin-top: 200px;
+    width: 90%;
+}
+#education>div{
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: column;
+}
+#education>div>*{
+    background-color: #979999;
+    padding: 10px 20px;
+}
+#education>div>p:first-child{
+    border-radius: 15px 15px 0px 0px;
+    font-size: 20px;
+}
+#education>div>p:last-child{
+    border-radius: 0px 0px 15px 15px;
+}
+#education>div>h3{
+    color: white;
+    font-size: 32px;
+}
+#education>div>h3+p{
+    font-size: 20px;
+}
+#education>div>p+p{
+    font-size: 16px;
 }
 /* important color: 8D4B55 */
