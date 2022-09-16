@@ -6,22 +6,22 @@
     position: sticky;
     top: 0px;
     left: 0px;
-    background-color: #979999 !important;
-    color: white;
+    background-color: #60E3D5 !important;
     text-align: center;
 }
 #sidebar>*{
     text-align: center;
-    background-color: #979999 !important;
+    background-color: #60E3D5 !important;
 }
 #sidebar>div{
     font-size: 30px;
     text-align: center;
-    color: #8D4B55;
+    color: #0567A8;
     font-family: 'PT Root UI Bold';
     margin-bottom: 20px;
 }
 #sidebar>h1+h1{
+    color: #F6F0F0;
     margin-bottom: 50px;
 }
 #sidebar>h1{
@@ -29,22 +29,22 @@
     font-family: 'Objectivity-Bold';
 }
 #sidebar>h1:first-child{
-    color: #8D4B55;
+    color: #0567A8;
     padding-top: 20px;
     margin-bottom: 10px;
 }
 #sidebar>div:hover{
     font-size: 36px;
-    color: white;
+    color: #F6F0F0;
     cursor: pointer;
 }
 #sidebar>a{
     font-size: 30px;
     text-decoration: none;
-    color: #8D4B55;
+    color: #0567A8;
 }
 #sidebar>a:hover{
     font-size: 35px;
-    color: white;
+    color: #F6F0F0;
 }
 /* important color: 8D4B55 */

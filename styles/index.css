@@ -1,7 +1,8 @@
 *, body{
     margin: 0px;
     padding: 0px;
-    background-color: #ecc4c3;
+    /* background-color: #ecc4c3; */
+    background-color: #F6F0F0;
 }
 
 body{
@@ -11,7 +12,7 @@ body{
 #container{
     width: 70%;
     font-family: 'Objectivity-Bold';
-    color: #8D4B55;
+    color: #0567A8;
     font-size: 30px;
 }
 #introduction>button{
@@ -19,15 +20,15 @@ body{
     width: 120px;
     font-family: 'Objectivity-Bold';
     font-size: 16px;
-    color: white;
+    color: #0567A8;
     border: none;
-    background-color: #8D4B55;
+    background-color: #F6F0F0;
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #introduction>button:hover{
-    background-color: white;
-    color: #8D4B55;
+    background-color: #60E3D5;
+    color: #F6F0F0;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -57,7 +58,6 @@ body{
 }
 #info>div{
     font-size: 20px;
-    color: grey;
     font-family: 'PT Root UI Bold';
     line-height: 150%;
 }
@@ -72,15 +72,15 @@ body{
     width: 130px;
     font-family: 'Objectivity-Bold';
     font-size: 16px;
-    color: white;
+    color: #0567A8;
     border: none;
-    background-color: #8D4B55;
+    background-color: #F6F0F0;
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #info>div>button:hover{
-    background-color: white;
-    color: #8D4B55;
+    background-color: #60E3D5;
+    color: #F6F0F0;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -98,18 +98,18 @@ body{
     justify-content: center;
     align-items: center;
     height: 45px;
-    background-color: #979999;
+    background-color: #60E3D5;
     width: 70%;
     margin: auto;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #myskills>div:first-child{
-    background-color: white;
-    color: #8D4B55 !important;
+    background-color: #F6F0F0;
+    color: #0567A8 !important;
 }
 #myskills>div:hover{
-    color: white;
+    color: #F6F0F0;
 }
 #education{
     margin-top: 200px;
@@ -121,7 +121,7 @@ body{
     flex-direction: column;
 }
 #education>div>*{
-    background-color: #979999;
+    background-color: #60E3D5;
     padding: 10px 20px;
 }
 #education>div>p:first-child{
@@ -132,7 +132,7 @@ body{
     border-radius: 0px 0px 15px 15px;
 }
 #education>div>h3{
-    color: white;
+    color: #F6F0F0;
     font-size: 32px;
 }
 #education>div>h3+p{
@@ -141,4 +141,35 @@ body{
 #education>div>p+p{
     font-size: 16px;
 }
+#education{
+    margin-bottom: 70px;
+}
+#projects{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+#education+h1{
+    margin-bottom: 100px;
+}
+#projects>a{
+    width: 45%;
+    border-radius: 15px;
+}
+#projects>a>img{
+    width: 100%;
+    border-radius: 15px;
+    height: 150px;
+}
+#projects>a:hover{
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 /* important color: 8D4B55 */
+/*
+F6F0F0
+F6F0F0
+0567A8
+*/
