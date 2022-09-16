@@ -13,12 +13,13 @@
     text-align: center;
     background-color: #60E3D5 !important;
 }
-#sidebar>div{
+#sidebar>a>div{
     font-size: 30px;
     text-align: center;
     color: #0567A8;
     font-family: 'PT Root UI Bold';
     margin-bottom: 20px;
+    background-color: #60E3D5
 }
 #sidebar>h1+h1{
     color: #F6F0F0;
@@ -33,7 +34,7 @@
     padding-top: 20px;
     margin-bottom: 10px;
 }
-#sidebar>div:hover{
+#sidebar>a>div:hover{
     font-size: 36px;
     color: #F6F0F0;
     cursor: pointer;
