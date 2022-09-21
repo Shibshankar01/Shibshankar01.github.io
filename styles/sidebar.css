@@ -17,16 +17,17 @@
     font-size: 30px;
     text-align: center;
     color: #0567A8;
-    font-family: 'PT Root UI Bold';
+    font-family: 'PT Root UI Medium';
     margin-bottom: 20px;
-    background-color: #60E3D5
+    background-color: #60E3D5;
+    transition: font-size 400ms;
 }
 #sidebar>h1+h1{
     color: #F6F0F0;
     margin-bottom: 50px;
 }
 #sidebar>h1{
-    font-size: 42px;
+    /* font-size: 42px; */
     font-family: 'Objectivity-Bold';
 }
 #sidebar>h1:first-child{
@@ -43,6 +44,7 @@
     font-size: 30px;
     text-decoration: none;
     color: #0567A8;
+    transition: font-size 400ms;
 }
 #sidebar>a:hover{
     font-size: 35px;
