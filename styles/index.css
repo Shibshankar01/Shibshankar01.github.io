@@ -470,8 +470,8 @@ body{
         text-align: center;
     }
     #introduction>img{
-        top: 500px;
-        right: 50px;
+        top: 550px;
+        right: 10px;
     }
     #introduction+h1{
         margin-top: 400px;
