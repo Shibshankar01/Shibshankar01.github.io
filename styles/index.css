@@ -204,6 +204,7 @@ body{
     font-family: 'PT Root UI Light';
     border-radius: 10px;
     transition: width 400ms;
+    border: 0.1rem solid #333;
 }
 #projects>div>div>button:hover{
     width: 50%;
@@ -274,10 +275,6 @@ body{
     border: none;
     outline: none;
     border-bottom: 0.1rem solid #0567A8;
-}
-.calendar{
-    width: 90%;
-    margin: auto;
 }
 .calendar+h1{
     margin-top: 200px;
