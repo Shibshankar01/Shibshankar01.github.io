@@ -274,7 +274,16 @@ body{
     outline: none;
     border-bottom: 0.1rem solid #0567A8;
 }
-
+.calendar{
+    width: 90%;
+    margin: auto;
+}
+.calendar+h1{
+    margin-top: 200px;
+}
+#projects+h1{
+    margin-bottom: 50px;
+}
 @media all and (min-width: 768px) and (max-width: 1024px) {
     #aboutme{
         display: flex;

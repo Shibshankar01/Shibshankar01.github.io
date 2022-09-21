@@ -14,7 +14,6 @@ if(window.matchMedia('(min-width: 400px) and (max-width: 767px)').matches) {
     document.querySelector("#sidebar").innerHTML="";
 }
 
-
 if(window.matchMedia('(min-width: 768px) and (max-width: 1024px)').matches){
     document.querySelector("#sidebar").innerHTML=
     `   <h1>SHIBSHANKAR</h1>
