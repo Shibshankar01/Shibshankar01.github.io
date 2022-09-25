@@ -1,8 +1,9 @@
+@import url('../images/output-onlinepngtools.png');
+
 *, body{
     margin: 0px;
     padding: 0px;
-    /* background-color: #ecc4c3; */
-    background-color: #F6F0F0;
+    /* background-color: #F6F0F0; */
 }
 
 body{
@@ -10,10 +11,18 @@ body{
     justify-content: space-between;
 }
 #container{
-    width: 70%;
+    width: 75%;
     font-family: 'Objectivity-Bold';
     color: #0567A8;
     font-size: 30px;
+    /* background-image: url("https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif") !important; */
+    background-image: url('../images/output-onlinepngtools.png') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    padding-left: 15px;
+    /* height: 725px; */
 }
 #introduction>button{
     height: 50px;
@@ -35,8 +44,9 @@ body{
     width: 170px;
 }
 #introduction{
-    margin-top: 200px;
-    margin-bottom: 310px;
+    padding-top: 200px;
+    padding-bottom: 320px;
+    position: relative;
 }
 #introduction>div{
     margin-bottom: 30px;
@@ -45,15 +55,18 @@ body{
 
 #introduction>img{
     position: absolute;
-    right: 40px;
-    top: 150px;
-    width: 400px;
+    opacity: 0.09;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 105%;
+    height: 100%;
 }
 
 #aboutme{
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 #aboutme>img{
     border-radius: 15px;
@@ -97,33 +110,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 200px;
 }
-#myskills{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 95%;
-    margin: auto;
-    margin-top: 80px;
-}
-#myskills>div{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 45px;
-    background-color: #60E3D5;
-    width: 70%;
-    margin: auto;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-#myskills>div:first-child{
-    background-color: #F6F0F0;
-    color: #0567A8 !important;
-}
-#myskills>div:hover{
-    color: #F6F0F0;
-}
+
 #education{
     margin-top: 200px;
     width: 90%;
@@ -282,7 +269,68 @@ body{
 #projects+h1{
     margin-bottom: 50px;
 }
+#aboutme+h1{
+    margin-top: 200px;
+}
+#myskills>ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 45px;
+}
+#myskills>ul>li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myskills>ul>li>i{
+    font-size: 100px;
+    transition: font-size 400ms;
+}
+#myskills>ul>li>i:hover{
+    color: #60E3D5;
+    font-size: 110px;
+}
+#mystats{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    gap: 20px;
+    justify-content: space-around;
+}
+#mystats>.skills{
+    padding: 20px;
+}
+.font-h2{
+    font-size: 24px;
+    font-family: 'PT Root UI Medium';
+}
+.font-h3{
+    font-size: 20px;
+    font-family: 'PT Root UI Light';
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.bar{
+    width: 100%;
+    background-color: #F6F0F0;
+    height: 10px;
+    border-radius: 10px;
+    border: 0.1rem solid #333;
+}
+.bar>span{
+    display: block;
+    height: 100%;
+    background-color: #60E3D5;
+    border-radius: 10px;
+}
+
 @media all and (min-width: 768px) and (max-width: 1024px) {
+    #myskills>ul{
+        grid-template-columns: repeat(2, 45%);
+    }
     #aboutme{
         display: flex;
         flex-direction: column;
@@ -356,18 +404,18 @@ body{
     #contactme>div:first-child>div>*{
         text-align: center;
     }
-    #introduction>img{
-        top: 500px;
-        right: 150px;
-    }
+    
     #introduction+h1{
-        margin-top: 400px;
+        margin-top: 0px;
     }
     #contactme>div>form>[type = "submit"]{
         width: 35%;
     }
     #contactme>div>form>[type = "submit"]:hover{
         width: 45%;
+    }
+    #mystats{
+        grid-template-columns: 75%;
     }
 }
 
@@ -377,6 +425,12 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    #container{
+        width: 95%;
+    }
+    #myskills>ul{
+        grid-template-columns: repeat(2, 45%);
     }
     #sidebar{
         width: 0px;
@@ -389,22 +443,17 @@ body{
         align-items: center;
     }
     #aboutme>img{
-        width: 95%;
+        width: 75%;
         height: 450px;
         margin-bottom: 50px;
     }
     #aboutme>#info{
-        width: 65%;
+        width: 85%;
         text-align: center;
     }
     #introduction+h1{
         text-align: center;
-    }
-    #myskills{
-        width: 95%;
-    }
-    #myskills>div{
-        width: 100%;
+        margin-top: 0px;
     }
     #projects{
         display: flex;
@@ -467,18 +516,15 @@ body{
     #contactme>div:first-child>div>*{
         text-align: center;
     }
-    #introduction>img{
-        top: 550px;
-        right: 10px;
-    }
-    #introduction+h1{
-        margin-top: 400px;
-    }
+    
     #contactme>div>form>[type = "submit"]{
         width: 50%;
     }
     #contactme>div>form>[type = "submit"]:hover{
         width: 60%;
+    }
+    #mystats{
+        grid-template-columns: 75%;
     }
 }
 
