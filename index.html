@@ -40,7 +40,7 @@
             <div>SHIBSHANKAR HERE</div>
             <div>I AM A JAVA BACKEND DEVELOPER</div>
             <button onclick="aboutMe()">About Me</button>
-            <!-- <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt=""> -->
+            <img id="image" src="images/coding_images.jpg" alt="">
         </div>
         <h1>ABOUT ME</h1>
         <div id="aboutme">
@@ -57,28 +57,24 @@
                         Eager to start my professional life again, be a part of a team where I can learn from my colleagues,
                         solves problems and learn together.
                     </p>
-                    <p>Country: India</p>
-                    <p>Age: 22</p>
-                    <p>Gender: Male</p>
-                    <p>Language: English, Hindi, Odia, Marathi</p>
-                    <p>Profession: Back-End Developer</p>
                     <p>Phone: (+91)8369766605</p>
                     <p>Email: shivapadhy547@gmail.com</p>
-                    <button onclick="downloadCV()">Download CV</button>
+                    <a href="resume/Shibshankar-Padhy-Resume (1).pdf"><button>Download CV</button></a>
+                    
                 </div>
             </div>
         </div>
         <h1>My Skills</h1>
         <div id="myskills">
             <ul>
-                <li><i class="devicon-java-plain"></i></li>
-                <li><i class="devicon-spring-plain"></i></li>
-                <li><i class="devicon-mysql-plain"></i></li>
-                <li><i class="devicon-csharp-plain"></i></li>
-                <li><i class="devicon-angularjs-plain"></i></li>
-                <li><i class="devicon-javascript-plain"></i></li>
-                <li><i class="devicon-html5-plain"></i></li>
-                <li><i class="devicon-css3-plain"></i></li>
+                <li><i class="devicon-java-plain"></i><div>Java</div></li>
+                <li><i class="devicon-spring-plain"></i><div>SpringBoot</div></li>
+                <li><i class="devicon-mysql-plain"></i><div>MySQL</div></li>
+                <li><i class="devicon-csharp-plain"></i><div>C#</div></li>
+                <li><i class="devicon-angularjs-plain"></i><div>Angular</div></li>
+                <li><i class="devicon-javascript-plain"></i><div>JavaScript</div></li>
+                <li><i class="devicon-html5-plain"></i><div>HTML</div></li>
+                <li><i class="devicon-css3-plain"></i><div>CSS</div></li>
             </ul>
         </div>
         <div id="education">
@@ -199,10 +195,13 @@
         </div>
         
         <h1>My GitHub Calendar</h1>
-        <div class="calendar">
-            <!-- Loading stuff -->
-            Loading the data just for you.
+        <div id="mygitcalendar">
+            <div class="calendar">
+                <!-- Loading stuff -->
+                Loading the data just for you.
+            </div>
         </div>
+        
         <h1>CONTACT ME</h1>
         <div id="contactme">
             <div>
@@ -223,13 +222,16 @@
                 </div>
             </div>
             <div>
-                <form action="">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                    <input type="number" placeholder="Number">
-                    <input type="text" placeholder="Messsage">
-                    <input type="submit" value="Send Message">
-                </form>
+                <div>
+                    <i class="fab fa-linkedin"></i>
+                    <div>My LinkedIn</div>
+                    <div>Shibshankar Padhy</div>
+                </div>
+                <div>
+                    <i class="fab fa-github"></i>
+                    <div>My GitHub</div>
+                    <div>Shibshankar01</div>
+                </div>
             </div>
         </div>
     </div>

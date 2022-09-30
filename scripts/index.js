@@ -25,5 +25,8 @@ if(window.matchMedia('(min-width: 768px) and (max-width: 1024px)').matches){
         <a href="#projects"><div>Projects</div></a>
         <a href="#contactme"><div>Contact</div></a>
         <a href="https://www.linkedin.com/in/shibshankar-padhy-98952b1b7/" target="_blank" class="fab fa-linkedin"></a>
-        <a href="https://github.com/Shibshankar01" target="_blank" class="fab fa-github"></a>`;
+        <a href="https://github.com/Shibshankar01" target="_blank" class="fab fa-github"></a>`
+        ;
+    
+    document.querySelector("#image").setAttribute("src", "");
 }
