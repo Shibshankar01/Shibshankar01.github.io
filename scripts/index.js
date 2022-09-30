@@ -10,11 +10,12 @@ if(window.matchMedia('(max-width: 400px)').matches) {
     document.querySelector("#sidebar").innerHTML="";
 }
 
-if(window.matchMedia('(min-width: 400px) and (max-width: 767px)').matches) {
+if(window.matchMedia('(min-width: 216px) and (max-width: 480px)').matches) {
     document.querySelector("#sidebar").innerHTML="";
+    document.querySelector("#image").setAttribute("src", "");
 }
 
-if(window.matchMedia('(min-width: 768px) and (max-width: 1024px)').matches){
+if(window.matchMedia('(min-width: 481px) and (max-width: 1024px)').matches){
     document.querySelector("#sidebar").innerHTML=
     `   <h1>SHIBSHANKAR</h1>
         <h1>PADHY</h1>
@@ -30,3 +31,7 @@ if(window.matchMedia('(min-width: 768px) and (max-width: 1024px)').matches){
     
     document.querySelector("#image").setAttribute("src", "");
 }
+
+window.addEventListener('resize', function(){
+    window.location.reload();
+})

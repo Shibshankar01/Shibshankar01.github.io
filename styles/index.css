@@ -333,7 +333,7 @@ body{
     background-color: rgb(57, 36, 148);
     border-radius: 10px;
 }
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 481px) and (max-width: 1024px) {
     #myskills>ul{
         grid-template-columns: repeat(2, 45%);
     }
@@ -395,7 +395,7 @@ body{
     #education>div>h3{
         font-size: 24px;
     }
-    #contactme>div:first-child{
+    #contactme>div{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -404,10 +404,10 @@ body{
     #projects+h1{
         text-align: center;
     }
-    #contactme>div:first-child>div{
+    #contactme>div>div{
         width: 40%;
     }
-    #contactme>div:first-child>div>*{
+    #contactme>div>div>*{
         text-align: center;
     }
     
@@ -425,7 +425,7 @@ body{
     }
 }
 
-@media all and (min-width: 216px) and (max-width: 767px){
+@media all and (min-width: 216px) and (max-width: 480px){
     
     body{
         display: flex;
@@ -503,7 +503,7 @@ body{
     #education>div>h3{
         font-size: 24px;
     }
-    #contactme>div:first-child{
+    #contactme>div{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -516,10 +516,10 @@ body{
     #projects>div{
         width: 95%;
     }
-    #contactme>div:first-child>div{
+    #contactme>div>div{
         width: 95%;
     }
-    #contactme>div:first-child>div>*{
+    #contactme>div>div>*{
         text-align: center;
     }
     
