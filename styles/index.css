@@ -13,7 +13,7 @@ body{
 #container{
     width: 75%;
     font-family: 'Objectivity-Bold';
-    color: #e44656;
+    color: #2D2926;
     font-size: 30px;
     /* background-image: url("https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif") !important; */
     background-image: url('../images/output-onlinepngtools.png') !important;
@@ -29,7 +29,7 @@ body{
     width: 120px;
     font-family: 'Objectivity-Bold';
     font-size: 16px;
-    color: #e44656;
+    color: #2D2926;
     border: none;
     background-color: #F6F0F0;
     border-radius: 12px;
@@ -37,7 +37,7 @@ body{
     transition: width 400ms;
 }
 #introduction>button:hover{
-    background-color: rgb(57, 36, 148);
+    background-color: #E94C3D;
     color: #F6F0F0;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -93,7 +93,7 @@ body{
     width: 130px;
     font-family: 'Objectivity-Bold';
     font-size: 16px;
-    color: #e44656;
+    color: #2D2926;
     border: none;
     background-color: #F6F0F0;
     border-radius: 12px;
@@ -101,7 +101,7 @@ body{
     transition: width 400ms;
 }
 #info>div>a>button:hover{
-    background-color: rgb(57, 36, 148);
+    background-color: #E94C3D;
     color: #F6F0F0;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -118,7 +118,7 @@ body{
     flex-direction: column;
 }
 #education>div>*{
-    background-color: rgb(57, 36, 148);
+    background-color: #E94C3D;
     padding: 10px 20px;
 }
 #education>div>p:first-child{
@@ -155,21 +155,21 @@ body{
     padding: 10px;
     border-radius: 15px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background-color: rgb(57, 36, 148);
+    background-color: #E94C3D;
 }
 #projects>div>img{
     width: 80%;
     margin: auto;
     display: block;
     text-align: justify;
-    background-color: rgb(57, 36, 148);
+    background-color: #E94C3D;
     margin-bottom: 10px;
 }
 #projects>div>p{
     font-size: 18px;
     font-family: 'PT Root UI Light';
     text-align: center;
-    background-color: rgb(57, 36, 148);
+    background-color: #E94C3D;
     display: block;
     overflow: hidden;
     height: 110px;
@@ -177,7 +177,7 @@ body{
 }
 
 #projects>div>div{
-    background-color: rgb(57, 36, 148);
+    background-color: #E94C3D;
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
@@ -213,12 +213,12 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    background-color: rgb(57, 36, 148);
+    background-color: #E94C3D;
     padding: 25px;
     border-radius: 15px;
 }
 #contactme>div>div>*{
-    background-color: rgb(57, 36, 148);
+    background-color: #E94C3D;
     margin-bottom: 10px;
 }
 #contactme>div>div>div:last-child{
@@ -231,12 +231,12 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    background-color: rgb(57, 36, 148);
+    background-color: #E94C3D;
     padding: 20px;
 }
 #contactme>div>form>*{
     margin-bottom: 10px;
-    background-color: rgb(57, 36, 148);
+    background-color: #E94C3D;
     border: none;
     height: 50px;
     padding: 10px;
@@ -261,7 +261,7 @@ body{
 #contactme>div>form>input:focus{
     border: none;
     outline: none;
-    border-bottom: 0.1rem solid #e44656;
+    border-bottom: 0.1rem solid #2D2926;
 }
 #mygitcalendar+h1{
     margin-top: 200px;
@@ -271,6 +271,7 @@ body{
 }
 #aboutme+h1{
     margin-top: 200px;
+    text-align: center;
 }
 #myskills>ul{
     list-style: none;
@@ -289,8 +290,14 @@ body{
     transition: font-size 400ms;
 }
 #myskills>ul>li>i:hover{
-    color: rgb(57, 36, 148);
+    color: #E94C3D;
     font-size: 110px;
+}
+#mystats+h1{
+    text-align: center;
+}
+h1{
+    text-align: center;
 }
 #mystats{
     padding: 20px;
@@ -330,7 +337,7 @@ body{
 .bar>span{
     display: block;
     height: 100%;
-    background-color: rgb(57, 36, 148);
+    background-color: #E94C3D;
     border-radius: 10px;
 }
 @media all and (min-width: 481px) and (max-width: 1024px) {

@@ -6,20 +6,20 @@
     position: sticky;
     top: 0px;
     left: 0px;
-    background-color: rgb(57, 36, 148) !important;
+    background-color: #E94C3D !important;
     text-align: center;
 }
 #sidebar>*{
     text-align: center;
-    background-color: rgb(57, 36, 148) !important;
+    background-color: #E94C3D !important;
 }
 #sidebar>a>div{
     font-size: 30px;
     text-align: center;
-    color: #e44656;
+    color: #2D2926;
     font-family: 'PT Root UI Medium';
     margin-bottom: 20px;
-    background-color: rgb(57, 36, 148);
+    background-color: #E94C3D;
     transition: font-size 400ms;
 }
 #sidebar>h1+h1{
@@ -31,7 +31,7 @@
     font-family: 'Objectivity-Bold';
 }
 #sidebar>h1:first-child{
-    color: #e44656;
+    color: #2D2926;
     padding-top: 20px;
     margin-bottom: 10px;
 }
@@ -43,7 +43,7 @@
 #sidebar>a{
     font-size: 30px;
     text-decoration: none;
-    color: #e44656;
+    color: #2D2926;
     transition: font-size 400ms;
 }
 #sidebar>a:hover{
