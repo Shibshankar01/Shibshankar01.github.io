@@ -239,16 +239,15 @@
 </body>
 <script src="scripts/index.js"></script>
 <script>
-    GitHubCalendar(".calendar", "Shibshankar01");
 
     // or enable responsive functionality:
     GitHubCalendar(".calendar", "Shibshankar01", { responsive: true });
 
-    // Use a proxy
-    GitHubCalendar(".calendar", "Shibshankar01", {
-       proxy (username) {
-         return fetch(`https://your-proxy.com/github?user=${username}`)
-       }
-    }).then(r => r.text())
+    // // Use a proxy
+    // GitHubCalendar(".calendar", "Shibshankar01", {
+    //    proxy (username) {
+    //      return fetch(`https://your-proxy.com/github?user=${username}`)
+    //    }
+    // }).then(r => r.text())
 </script>
 </html>
