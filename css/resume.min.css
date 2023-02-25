@@ -190,6 +190,12 @@ a:hover {
     align-items: center;
     justify-content:center;
 }
+.display-flex-row-start{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:center;
+}
 .display-flex-column{
     display: flex;
     flex-direction: column;
@@ -203,8 +209,14 @@ a:hover {
 .w-30{
     width: 30%;
 }
+.w-12{
+    width: 12%;
+}
 .projdesc{
     margin-left: 5px !important;
+}
+.border{
+    border: 2px solid black;
 }
 @media all and (min-width: 481px) and (max-width: 1024px){
     .project{
